@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+</script>
+
+
+<style>
+    .body{
+        text-align: center;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(180deg, black 50%, rgb(1, 1, 125)100%);
+        color: aliceblue;
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-self: center;
+        justify-content: center  ;
+        border-bottom: 2px solid grey;
+    }
+    
+    
+    .cabecalho h1{
+        text-align: center;
+        font-size: 60px;
+        font-weight: 900;
+        background-image: url(https://st5.depositphotos.com/1020070/67329/v/380/depositphotos_673295224-stock-illustration-bit-pixel-art-sunset-beach.jpg);
+        background-clip: text;
+        color: transparent;
+        background-position: center;
+        background-size: 100%;
+        background-position-y: -100px;
+        filter: drop-shadow(-2px 2px 2px white);
+        background-position-x: -5px;
+    }
+    .cabecalho img{
+        margin: 2%;
+        text-align: left;
+    }
+    
+    .navegaçao{
+        position: absolute;
+        top: 1%;
+        right: 4%;
+    }
+    .navegaçao ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .navegaçao ol{
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid white;
+        gap: 20px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    .navegaçao ol:hover{
+        border: 2px solid white;
+        background-color: rgb(53, 53, 49);
+        gap: 20px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+
+    .section_1{
+        margin-top: 3%;
+        display: grid;
+        align-items: top;
+        text-align: left;
+        grid-template-columns: 30% 50%;
+        padding-bottom: 2%;
+        border-bottom: 2px solid grey;
+    }
+    .section_1 img{
+        margin-left: 5%;
+        border-radius: 15px;
+    }
+    .section_2{
+        margin-top: 10%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        grid-template-columns: 50% 40%;
+        gap: 4%;
+        line-height: 20px;
+        padding-bottom: 2%;
+    }
+    .section_2 h1{
+        font-size: 8px;
+        margin-left: 5%;
+        border-radius: 15px;
+    }
+    .section_2 b{
+        color: orange;
+    }
+
+    .rodape{
+        height:40vh;
+        background-color: transparent;
+        background-image: url(sdv_divider.png);
+        background-position-y: ;
+        background-size: 100%;
+    }
+
+</style>
+
+
+<body class="body">
+    
+
+    <header id="inicio" class="cabecalho">
+        <img src="main_logo.png" width="19%" alt="logo">
+        <nav  class="navegaçao">
+            <ul>  
+                <ol id="inicio"><a style="text-decoration: none; color: white;" href="#inicio">inicio</a></ol>
+                <ol id="produtos"><a style="text-decoration: none; color: white;" href="#inicio">projetos</a></ol>
+                <ol id="sobre"><a style="text-decoration: none; color: white;" href="#inicio">sobre</a></ol>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section_1">
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Logo_of_Stardew_Valley.png" width="300px" alt="produto 1">
+        <h2>Stardew Valley é um videogame RPG de simulação desenvolvido por Eric "ConcernedApe" Barone. Os jogadores assumem o papel de um personagem que herda a fazenda dilapidada de seu falecido avô em um lugar conhecido como Stardew Valley. Wikipédia</h2>
+    </section>
+
+    <section class="section_2">
+        <h2><p><b>Create the farm of your dreams:</b> Turn your overgrown fields into a lively and bountiful farm!</P>
+            <p><b>Become a part of the local community:</b> Pelican Town is home to over 30 residents you can befriend!</P>
+            <p><b>Meet someone special:</b> With 12 townsfolk to date, you may even find someone to start a family with!</P>
+            <p><b>Learn to live off the land:</b> Raise animals, go fishing, tend to crops, craft items, or do it all! The choice is yours...</P>
+            <p><b>Explore vast, mysterious caves:</b> Encounter dangerous monsters & valuable treasures deep underground!</P>
+            <p><b>Customize:</b> There are hundreds of character & home decoration options to choose from!</P>
+            <p></h2>
+        <img src="ca_logo.png" width="500px">
+
+    </section>
+    <footer class="rodape">
+
+    </footer>
+
+</body>
+</html>
